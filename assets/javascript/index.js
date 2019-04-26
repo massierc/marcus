@@ -17,7 +17,7 @@ var bool = true
 function switchImage() {
   setTimeout(function () {
     var i = bool ? 0 : 1
-    document.querySelector("#main").style.backgroundImage = "url(/assets/images/marcus_" + i.toString() + ".jpg)";
+    document.querySelector("#main").style.backgroundImage = "url(assets/images/marcus_" + i.toString() + ".jpg)";
     bool = !bool
     switchImage();
   }, 200)
