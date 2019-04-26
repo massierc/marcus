@@ -1,0 +1,72 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Bangers", cursive;
+}
+
+#main {
+  background: url("/assets/images/marcus_0.jpg") no-repeat left center fixed;
+  background-size: 100%;
+  min-height: 100%;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  display: block;
+  position: absolute;
+  min-width: 15em;
+}
+
+h1 {
+  color: #F85DFF;
+  font-size: 3.2em;
+  margin: 0;
+  line-height: 1.5em;
+  letter-spacing: 2px;
+}
+
+.title {
+  -webkit-transform: translateX(-50%) rotate(-12deg);
+      -ms-transform: translateX(-50%) rotate(-12deg);
+          transform: translateX(-50%) rotate(-12deg);
+  display: block;
+  float: left;
+  left: 50%;
+  position: relative;
+}
+
+.title span {
+  -webkit-transform: skew(-12deg);
+      -ms-transform: skew(-12deg);
+          transform: skew(-12deg);
+  display: block;
+  float: left;
+  text-shadow: black 1px 1px, black 2px 2px, black 3px 3px, black 4px 4px, black 5px 5px, black 6px 6px;
+  position: relative;
+}
+
+.title:nth-child(1) {
+  color: #FDFD00;
+}
+
+.title:nth-child(2) {
+  color: #FF5733;
+}
+
+.title:nth-child(3) {
+  color: #35FF32;
+}
+
+.title:nth-child(4) {
+  color: #008AFC;
+}
