@@ -8,7 +8,7 @@ body {
 }
 
 #main {
-  background: url("../images/marcus_0.jpg") repeat -100px -100px fixed;
+  background: url("../images/marcus_0.jpg") repeat -100px -80px fixed;
   background-size: 100%;
   min-height: 100%;
   background-size: cover;
